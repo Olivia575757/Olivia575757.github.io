@@ -55,3 +55,19 @@ plot_ly(data = bar_data,
          yaxis = list(title = 'Number of Orders'))
 ```
 
+# Box Plot: Order Hour Distribution by Department
+```{r}
+box_data <- instacart %>% 
+  sample_n(1000) %>% 
+  group_by(department) %>% 
+  filter(n() > 30) %>% 
+  ungroup()
+
+plot_ly(data = box_data, 
+        y = ~order_hour_of_day, 
+        color = ~department, 
+        type = 'box') %>%
+  layout(title = 'Order Hour Distribution by Department',
+         yaxis = list(title = 'Order Hour of Day'))
+```
+
