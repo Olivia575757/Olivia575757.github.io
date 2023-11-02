@@ -30,10 +30,28 @@ plot_ly(data = scatter_data,
         type = 'scatter', 
         mode = 'markers',
         color = ~reordered,
-        colors = c('#FFA07A', '#20B2AA'),
+        colors = c('pink', 'lightblue'),
         marker = list(size = 10, opacity = 0.5)) %>%
   layout(title = 'Order Hour of Day vs Days Since Prior Order',
          xaxis = list(title = 'Order Hour of Day'),
          yaxis = list(title = 'Days Since Prior Order'))
+```
+
+# Bar Plot: Orders by Day of Week
+```{r}
+bar_data <- instacart %>%
+  group_by(order_dow) %>%
+  summarise(count = n()) %>%
+  arrange(order_dow)
+
+plot_ly(data = bar_data, 
+        x = ~order_dow, 
+        y = ~count, 
+        type = 'bar',
+        marker = list(color = 'lightblue', 
+                      line = list(color = 'pink', width = 1.5))) %>%
+  layout(title = 'Orders by Day of Week',
+         xaxis = list(title = 'Day of Week'),
+         yaxis = list(title = 'Number of Orders'))
 ```
 
