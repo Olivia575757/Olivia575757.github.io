@@ -27,5 +27,17 @@ Bachelor of Science in Pharmaceutical Sciences
 
 # Experiences
 
+**Bassett Health Institute, Data Analyst Intern** 
+
+- Analyzed firearm-related mortality data (NVDRS) at the zip code level, identifying disparities among occupations with a focus on agriculture, forestry, and fishing, while considering the influence of rurality and social vulnerability
+
+- Utilized R programming and geospatial analysis tools to uncover spatial variability and temporal trends in firearm-related deaths, contributing data-driven insights for targeted intervention strategies and policy recommendations
+
+**Simon-Kucher&Partners, Consulting Intern**
+
+-	Conducted comprehensive landscape analysis and market research to inform the development of pricing strategies for new healthcare products and services, ensuring optimal market access and profitability
+
+-	Collaborated with cross-functional teams to create client presentations and reports, utilizing data analysis and visualization techniques to effectively communicate key findings and recommendations
+
 # Hobbies
 
