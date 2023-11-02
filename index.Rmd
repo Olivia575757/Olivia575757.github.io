@@ -10,6 +10,8 @@ output:
 
 I'm Shiqi Wu, a Master of Public Health in Epidemiology candidate at Columbia University. With a passion for public health, data science, and epidemiology, I am dedicated to utilizing my skills in data analysis, research, and healthcare to make impactful contributions to the field. Feel free to explore my academic and professional experiences, and connect with me through the links provided.
 
+![](website1.jpeg)
+
 # Education
 
 **Columbia University, New York, USA**  
@@ -66,3 +68,5 @@ Engaging in various research projects has allowed me to apply my academic knowle
 - Rowing Team of Zhejiang University, Coxswain and Team Leader for International Competitions
 
 - Public Relations Department, Student Union, College of Pharmacy
+
+![](website2.jpeg)
