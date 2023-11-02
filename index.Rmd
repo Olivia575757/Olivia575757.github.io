@@ -27,6 +27,8 @@ Bachelor of Science in Pharmaceutical Sciences
 
 # Experiences
 
+My internship experiences have equipped me with a broad spectrum of skills in data analysis, healthcare investment, and consulting. Here's an overview of my professional journey through internships.
+
 **Bassett Health Institute, Data Analyst Intern** 
 
 - Analyzed firearm-related mortality data (NVDRS) at the zip code level, identifying disparities among occupations with a focus on agriculture, forestry, and fishing, while considering the influence of rurality and social vulnerability
@@ -40,6 +42,8 @@ Bachelor of Science in Pharmaceutical Sciences
 -	Collaborated with cross-functional teams to create client presentations and reports, utilizing data analysis and visualization techniques to effectively communicate key findings and recommendations
 
 # Relevant Research
+
+Engaging in various research projects has allowed me to apply my academic knowledge to real-world public health challenges. These experiences have been fundamental in shaping my research skills and understanding of epidemiological phenomena.
 
 **Maternal and Infant Outcomes Associated with Antiretroviral Therapy in Pregnancy**
 
