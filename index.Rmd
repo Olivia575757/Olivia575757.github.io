@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "Shiqi's Personal Website: about me!"
 output: 
   html_document:
     toc: true
@@ -39,7 +39,25 @@ Bachelor of Science in Pharmaceutical Sciences
 
 -	Collaborated with cross-functional teams to create client presentations and reports, utilizing data analysis and visualization techniques to effectively communicate key findings and recommendations
 
-# Leadership and Community Activity
+# Relevant Research
+
+**Maternal and Infant Outcomes Associated with Antiretroviral Therapy in Pregnancy**
+
+-	Organized literature about ART, pregnancy and birth outcomes and completed systematic review and meta-analysis using R
+
+-	Assessed the heterogeneity and used funnel plots and Egger’s test to check for bias
+
+**Small molecular - Protein Interaction Prediction with Deep learning**   
+
+- Extracted protein information and small molecule information, and helped to build a Transformer model to predict the interaction probability with Convolutional Neural Network and Graph convolution Network
+
+**Faculty Research at Zhejiang University**                               
+
+- Researched retinoic acid-resistant leukemia cells to identify potential targets for drug-resistant acute myeloid leukemia cells
+
+- Cultivated leukemia cell line NB4 and drug-resistant cell line, used Western Blots and flow cytometry to assess silencing efficiency and cell sorting respectively
+
+# Leadership and Activity
 
 - Rowing Team of Zhejiang University, Coxswain and Team Leader for International Competitions
 
