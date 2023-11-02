@@ -3,12 +3,15 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Problem 2"
+      href: Problem 2.html
     - icon: fa-envelope fa-lg
       href: mailto:<sw3737@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/Olivia575757/
+    - icon: fa-brands fa-linkedin
+      href: https://linkedin.com/in/shiqi-wu-014191273 
+
 output:
   html_document:
     theme: cerulean
