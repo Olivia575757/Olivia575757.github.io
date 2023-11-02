@@ -1,0 +1,19 @@
+---
+title: "Problem 2"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r}
+install.packages(plotly)
+library(flexdashboard)
+library(plotly)
+library(p8105.datasets)
+library(dplyr)
+```
+
+```{r}
+data(instacart)
+```
