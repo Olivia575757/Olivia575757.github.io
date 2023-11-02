@@ -1,0 +1,15 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Shiqi's awesome website
+
+![](https://i.gifer.com/fxTX.gif)
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+# Education
