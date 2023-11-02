@@ -6,14 +6,34 @@ output:
     toc_float: true
 ---
 
-```{r}
-install.packages(plotly)
+```{r setup, include=FALSE}
 library(flexdashboard)
 library(plotly)
 library(p8105.datasets)
 library(dplyr)
 ```
 
+# Load Dataset
 ```{r}
 data(instacart)
 ```
+
+# Scatter Plot: Order Hour of Day vs Days Since Prior Order
+```{r}
+scatter_data <- instacart %>% 
+  sample_n(1000) %>% 
+  filter(!is.na(days_since_prior_order))
+
+plot_ly(data = scatter_data, 
+        x = ~order_hour_of_day, 
+        y = ~days_since_prior_order, 
+        type = 'scatter', 
+        mode = 'markers',
+        color = ~reordered,
+        colors = c('#FFA07A', '#20B2AA'),
+        marker = list(size = 10, opacity = 0.5)) %>%
+  layout(title = 'Order Hour of Day vs Days Since Prior Order',
+         xaxis = list(title = 'Order Hour of Day'),
+         yaxis = list(title = 'Days Since Prior Order'))
+```
+
